@@ -1,0 +1,55 @@
+.woocommerce div.product form.cart .variations select {
+    display: none;
+}
+.reset_variations {
+    display: none!important;
+}
+.variation-radios {
+    display: flex;
+    overflow: hidden;
+}
+.variation-radios input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+.variation-radios label {
+    background-color: #fff;
+    color: black;
+    font-size: .75em;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease-in-out;
+    font-weight: 400;
+}
+.variation-radios label:hover {
+    cursor: pointer;
+}
+
+.variation-radios input:checked + label {
+    background-color: #2A6FBA;
+    box-shadow: none;
+    color: white;
+}
+.variation-radios label:first-of-type {
+    border-radius: 2px 0 0 2px;
+}
+
+.variation-radios label:last-of-type {
+    border-radius: 0 2px 2px 0;
+}
+.woocommerce-product-details__short-description {
+    margin-bottom: 1em;
+}
+.woocommerce div.product form.cart .variations td.label {
+    line-height: 1em;
+    font-weight: 400;
+    font-size: .75em;
+    display: none;
+}
