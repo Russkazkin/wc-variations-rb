@@ -1,5 +1,5 @@
 .woocommerce div.product form.cart .variations select {
-    display: none;
+    display: none!important;
 }
 .reset_variations {
     display: none!important;
